@@ -1,0 +1,84 @@
+body{
+	background-image: url("ballet.jpg");
+}
+.aa{
+	text-align: right;
+	color: white;
+}
+#menuhorizontal {
+margin:0;
+padding:0;
+list-style-type:none;
+} #menuhorizontal a { width:80px;
+text-decoration:none;
+text-align:center;
+color:white;
+text-shadow: 0 0 5px hotpink;
+background-color: transparent;
+padding:5px 100px;
+display:block; }
+#menuhorizontal li {
+float:left;
+}
+
+#menuhorizontal a:hover {
+background-color:white;
+color:black ;
+}
+.contenedor{
+	width: 200%;
+	max-width:1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.caja1{
+	font-family: serif;
+	font-size: 100;
+	color: white;
+	background-color: lightslategrey;
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 1%;
+	margin-bottom: 10%;
+	width: 70%;
+	border-spacing: ;
+	box-sizing: border-box;
+
+
+}
+.h11{
+	color: white;
+	margin-top: 10%;
+	text-align: center;
+	text-shadow: 0 0 5px hotpink;
+}
+.imagen1{
+	border-color:5px solid white;
+	text-align: right;
+}
+.h12{
+	color: white;
+	margin-top: 10%;
+	text-align: center;
+	text-shadow: 0 0 5px yellow;
+}
+.caja2{
+	font-family: serif;
+	font-size: 100;
+	color:beige;
+	text-shadow: 0 0 5px grey;
+	background-color: transparent ;
+	text-align: right;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 1%;
+	margin-bottom: 10%;
+	width: 70%;
+	border-spacing: ;
+	box-sizing: border-box;
+}
+label{
+	color:#F1E0A0 ;
+	text-shadow: 0 0 5px grey;
+}

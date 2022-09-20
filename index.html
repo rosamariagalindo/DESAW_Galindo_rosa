@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="PaginaF.css">
+	<meta name="viewport" content="width=device-width,user-scable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+	<title>Ballet folklorico Mexcaltitán</title>
+	<script type="text/javascript">
+		function mostrar_Fecha(){
+			var cl=document.getElementById("fecha");
+			cl.innerHTML= new Date()
+		}
+
+		function obten(){
+			var nom=document.getElementById("nombre").value;
+			var Ap=document.getElementById("Apaterno").value;
+			var Am=document.getElementById("Amaterno").value;
+			var EstViv=document.getElementById("EstViv").value;
+			var Ed=document.getElementById("Edad").value;
+			var Ema=document.getElementById("Email").value;
+			alert(nom+Ap+ Am+"bienvenid@ a mi página"+"\n"+"Gracias por visitarnos desde"+EstViv+"\n"+"Correo:"+ Ema+"Edad:"+Ed+"años");
+		}
+	</script>
+</head>
+<body>
+	<div class="contenedor">
+	<div id="fecha" class="aa"></div> 
+	<script type="text/javascript">
+		mostrar_Fecha()
+		setInterval(mostrar_Fecha, 1000);
+	</script>
+
+	<ul id="menuhorizontal">
+		<li><a href=#inicio name="inicio1">Inicio</a></li>
+		<li><a href=#danzas name="dansa">Danzas</a></li>
+		<li><a href=#regist name="regis">Registro</a></li>
+		<li><a href=#referenc name="refere">Referencias</a></li>
+	</ul><br>
+	<h1 class="h11"><a name="inicio" href=#inicio1>Registro
+	</a></h1>
+	<center><table border="0">
+	 	<form id="info">
+
+	 		<tr>
+	 		<th>
+			<label>Nombre:</label>
+			<br>
+			<!--Para colocar un textfiel y poder ingresar informacion-->
+			<input type="text" id="nombre" placeholder="Escibir nombre">
+		</th>
+		<th>
+			<label>A. Paterno</label>
+			<br>
+			<!--Para colocar un textfiel y poder ingresar informacion-->
+			<input type="text" id="Apaterno" placeholder="Escibir apellido">
+		</th>
+		<th>
+				<label>A. Materno</label>
+			<br>
+			<!--Para colocar un textfiel y poder ingresar informacion-->
+			<input type="text" id="Amaterno" placeholder="Escibir apellido"></th>
+		</tr>
+		<tr>
+		<th>
+			<label cl>Estado donde Vives:</label>
+			<br>
+			<!--Para colocar un textfiel y poder ingresar informacion-->
+			<input type="text" id="EstViv" placeholder="Escibir direccion">
+		
+		</th>
+	    <th>
+	    	<label>Edad:</label>
+			<br>
+			<!--Para colocar un textfiel y poder ingresar informacion-->
+			<input type="text" id="Edad" placeholder="Escibir numero">
+	    </th>
+		<th>
+			<label>Email</label>
+			<br>
+			<!--Para colocar un textfiel y poder ingresar informacion-->
+			<input type="text" id="Email" placeholder="Escibir numero">
+		</th></tr>
+			<!--boton para mostrar la informacion ingresada-->
+			<button onclick="obten()"> Mostrar </button><br><br>
+			<input type="reset" name="Borrar" value="Borrar">
+			</form>
+			</table></tr></center>
+	<h1 class="h11"><a name="inicio" href=#inicio1>Ballet Mexcaltitán</a></h1>
+	<p class="caja1">El <b>Ballet Mexcaltitán</b> (Ballet Mexcaltitán, Danza y Arte de México) fue fundado en 1989 por el Maestro Jaime Buentello Bazán en conjunto con el profesor Jorge Casillas Domínguez en el estado de Nayarit, México. Su objetivo es promover y consolidar la danza folklórica de dicho estado, para hacerla única y que represente a la región. Sin embargo, la compañía también interpreta otras danzas latinoamericanas y contemporáneas, al igual que otros estilos mexicanos.<br> El grupo de bailarines está conformado principalmente por jóvenes; sin embargo, la organización está dividida en dos secciones: el grupo principal y el grupo de niños llamado Mexcatitlán Infantil, conformado por artistas menores de edad en entrenamiento para integrarse al grupo principal. Actualmente, la compañía de baile recibe apoyo del gobierno del estado de Nayarit. Actualmente el Ballet Mexcaltitan de Gobierno del Estado de Nayarit, es dirigido por el Maestro Carlos Alberto Avalos Peña.
+	</p>
+	<p align="center">
+	<img src="folkl.jpg" style="border: 3px solid greenyellow;">
+	<img src="folk.jpg" style="border:3px solid hotpink;"></p>
+	<h1 class="h12"><a name="danzas" href=#dansa>Danzas</a></h1>
+	<p class="caja2">Algunas de las dazas mas famosas de este ballet son las del estado de Nayarit. <br>Gracias a los trabajos de Jaime Buentello y Arnulfo Andrade, en el siglo pasado se estableció la clasificación de los distintos bailes o sones que lo conforman. Algunos de los principales son: El Coamecate, El Diablo, Los Negritos, Los Bules y El Gallito. </p>
+	<table class="tabla">
+		<tr>
+				<font face="Courier">
+				<td bgcolor="#FBECAF">Bailes</td>
+				<td bgcolor="#D7D3C3">Nayarit Meztizo</td>
+				<td bgcolor="#D7D3C3">Los Machetes</td>
+				<td bgcolor="#D7D3C3">El Gatillo</td>
+			</tr>
+			<tr>
+				<td bgcolor="#FBECAF">Vestimenta Mujeres</td>
+				<td bgcolor="#D7D3C3">Las mujeres visten una blusa de satín en color fuerte con un holán en forma de pechera ribeteado con encaje de bolillo, la falda es amplia con un doble holán en la parte inferior, el holán de abajo es de la misma tela de la blusa.</td>
+				<td bgcolor="#D7D3C3">La vestimenta de las damas en el Baile de los Machetes consiste en una blusa de satín de algún color vivo para llamar la atención, también lleva una falda amplia con doble olán de la misma tela que la blusa.</td>
+				<td bgcolor="#D7D3C3">Es de blusa de satín en color fuerte con un olán en forma de pechera ribeteado con encaje de bolillo, la falda es amplia con un doble olán en la parte inferior, el olán de abajo es de la misma tela de la blusa.</td>
+			</tr>
+			<tr>
+				<td bgcolor="#FBECAF">Vestimenta Hobres</td>
+				<td bgcolor="#D7D3C3">Como en todo el folklore mestizo e indígena, los hombres usan pantalones y camisa de manta cruda o lavada, amarrados a la cintura por un ceñidor. Una chamarra de satín, tafeta o seda, desabotonada y atada al frente. Paliacate ceñido a la sien. Calzan huaraches o botas.</td>
+				<td bgcolor="#D7D3C3">sa calzón y camisa de manta con un paliacate debajo del cuello, faja roja y camisa ceñida; la faja puede ser de algodón o lana, porta sombrero de ala corta y cuatro pedradas y, además lleva huaraches.</td>
+				<td bgcolor="#D7D3C3">Vestuario de Hombre: Usa calzón y camisa de manta con un paliacate debajo del cuello, faja roja y camisa ceñida; la faja puede ser de algodón o lana, porta sombrero de ala corta y cuatro pedradas y, además lleva huaraches. </td>
+			</tr>
+			<tr>
+				<td bgcolor="FBECAF">Imagen Vetimenta</td>
+				<td bgcolor="#D7D3C3"><img src="mestizo.jpg" align="center"></td>
+				<td bgcolor="#D7D3C3"><img src="machetes.png"></td>
+				<td bgcolor="#D7D3C3"><img src="nayar.jpg"></td>
+			</tr>
+		</table>
+		
+	</table>
+	<h1 class="h12"><a name="referenc" href=#refere>Referencias</a></h1>
+	<a href="https://raicesdemx.wordpress.com/2016/03/11/nayarit-vestuarios-musica-y-bailes/" class="caja1">https://raicesdemx.wordpress.com/2016/03/11/nayarit-vestuarios-musica-y-bailes/</a>
+	<a href="https://elsouvenir.com/baile-machetes-danza-nayarit/" class="caja2">https://elsouvenir.com/baile-machetes-danza-nayarit/</a>
+	<a href="https://sites.google.com/site/enefdanzaymr26/definiciones/el-gallito" class="caja1">https://sites.google.com/site/enefdanzaymr26/definiciones/el-gallito</a>
+	<a href="https://www.lifeder.com/bailes-danzas-tipicas-nayarit/" class="caja2">https://www.lifeder.com/bailes-danzas-tipicas-nayarit/</a>
+</div>
+</body>
+</html>
